@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* ====== / Header / ====== */
+.menu{
+    position: relative;
+}
+.menu_img{
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.header_content h1{
+    letter-spacing: 3px;
+}
+
+/* ====== / Header / ====== */
+
+/* ====== / About / ====== */
+.about{
+    background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+/* ====== / About / ====== */
+
+/* ====== / Features / ====== */
+.features{
+    position: relative;
+}
+.feature_img_left{
+    position: absolute;
+    left: 0;
+    top:-60px;
+    z-index: 0;
+}
+.feature_img_right{
+    position: absolute;
+    right: 0;
+    top:-100px;
+    z-index: 0;
+}
+.feature_img{
+    width: 100px;
+    margin: 0 auto;
+}
+/* ====== / Features / ====== */
+/* ====== / Recipes / ====== */
+
+.recipes{
+    background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+.recipes .card{
+    box-shadow: 0 20px 40px rgba(255, 148, 1, 0.15);
+    border: none;
+}
+/* ====== / Recipes / ====== */
+
+/* ====== / takeAway / ====== */
+.takeAway{
+    position: relative;
+}
+/* ====== / takeAway / ====== */
+
+
+/* ====== / Footer / ====== */
+
+.footer{
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+.footer_img{
+    top: -50px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: all .3s linear;
+}
+.footer ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.footer ul li a:hover{
+    color: #FF9401;
+}
+.footer_icons a{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff95013a;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #FF9401;
+}
+
+/* ====== / Footer / ====== */
+
+.brr{
+    border-radius: 50px;
+}
+.button{
+    border: none; 
+    box-shadow: 0 20px 40px rgba(255, 148, 1, 0.15);
+}
+.color{
+    color: #FF9401;
+}
+.bg_color{
+    background: #FF9401;
+}
+.fs-13{
+    font-size: 13px;
+}

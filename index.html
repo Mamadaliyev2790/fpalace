@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+  <!-- Box icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Main css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- ====== /* Header */ ======-->
+  <section id="header" class="header pb-5">
+    <div class="menu">
+      <img class="menu_img d-none d-sm-block" src="img/6.png" alt="">
+      <nav class="navbar py-3 bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/Logo.png" alt=""></a>
+          <div class="d-flex align-items-center gap-3 gap-sm-5">
+            <i class='bx bx-search bx-sm'></i>
+            <i class='bx bxs-lock-alt bx-sm'></i>
+            <i class='bx bx-menu-alt-right bx-sm' data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation"></i>
+          </div>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="header_content">
+      <div class="container pt-3">
+        <div class="row align-items-center pt-5">
+          <div class="col-12 col-lg-7">
+            <p class="color">__Restaurant</p>
+            <h1 class="display-1 fw-bold">Good Food <br> Good Mood</h1>
+            <!-- <h1 class="display-1 fw-bold">Good Mood</h1> -->
+            <p>The food palace is an neighborhood restaurent serving <br> seasonal global cuisine driven by the faire.
+            </p>
+            <button class="button brr py-3 px-4 bg_color text-white">Explore Food Menu</button>
+            <div class="d-flex justify-content-center justify-content-sm-start gap-5 mt-5">
+              <i class='bx bxl-facebook bx-sm'></i>
+              <i class='bx bxl-instagram bx-sm'></i>
+              <i class='bx bxl-twitter bx-sm'></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 mt-5 mt-lg-0">
+            <img class="img-fluid w-100" src="img/header_img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== /* Header */ ======-->
+
+  <!-- ====== /* About */ ======-->
+  <section id="about" class="about py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-lg-2 align-items-center">
+        <div class="col order-2 order-lg-1 pt-4 pt-lg-0">
+          <img class="img-fluid" src="img/Image.png" alt="">
+        </div>
+        <div class="col order-1 order-lg-1 pt-4 pt-lg-0">
+          <p class="color">About us</p>
+          <h1 class="fw-bold">Simple Way of
+            Eating Delicious</h1>
+          <p class="my-4">Keep healthy food readily available. When you get hungry, you’re more likely to eat the first
+            thing you see
+            on the counter or in the</p>
+          <button class="button brr py-3 px-4 bg_color text-white">Explore our story</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== /* About */ ======-->
+
+  <!-- ====== /* Features */ ======-->
+  <section id="features" class="features py-5">
+    <div class="container">
+      <img class="feature_img_left d-none d-sm-block" src="img/2.png" alt="">
+      <img class="feature_img_right d-none d-sm-block" src="img/3.png" alt="">
+      <div class="text-center z-3 position-relative pb-5">
+        <p class="color">Features</p>
+        <h1 class="fw-bold">Our Awesome Services</h1>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-3 mt-5">
+        <div class="col">
+          <div class="card border-0">
+            <img class="feature_img" src="img/food.png" alt="">
+            <div class="card-body text-center mt-3">
+              <h3 class="fw-bold">Quality Food</h3>
+              <p>Keep healthy food readily available. When you get hungry, you’re more likely to </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img class="feature_img" src="img/mouth.png" alt="">
+            <div class="card-body text-center mt-3">
+              <h3 class="fw-bold">Super Taste</h3>
+              <p>Keep healthy food readily available. When you get hungry, you’re more likely to </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <img class="feature_img" src="img/truck.png" alt="">
+            <div class="card-body text-center mt-3">
+              <h3 class="fw-bold">Fast Delivery</h3>
+              <p>Keep healthy food readily available. When you get hungry, you’re more likely to </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== /* Features */ ======-->
+
+  <!-- ====== /* Recipes */ ======-->
+  <section id="recipes" class="recipes py-5">
+    <div class="container">
+      <div class="text-center pb-5">
+        <p class="color">Recipes</p>
+        <div class="d-flex justify-content-center align-items-center gap-5">
+          <h1 class="fw-bold">Most Popular Items</h1>
+          <img class="d-none d-sm-block" src="img/1.png" alt="">
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col">
+          <div class="card p-2 mt-3 mt-lg-0">
+            <img src="img/Rectangle 30.png" alt="">
+            <div class="card-body px-0 py-4">
+              <div class="d-flex justify-content-between">
+                <h5>Flame-boiled dish</h5>
+                <p class="text-secondary"><i class='bx bxs-star fs-13'></i> 8.5</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <button class="btn btn-secondary brr p-0 px-2 fs-13">ADD TO CART</button>
+                <h5 class="text-warning fw-semibold"><i>$19.99</i></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-2 mt-3 mt-lg-0">
+            <img src="img/Rectangle 31.png" alt="">
+            <div class="card-body px-0 py-4">
+              <div class="d-flex justify-content-between">
+                <h5>Flame-boiled dish</h5>
+                <p class="text-secondary"><i class='bx bxs-star fs-13'></i> 8.5</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <button class="btn btn-secondary brr p-0 px-2 fs-13">ADD TO CART</button>
+                <h5 class="text-warning fw-semibold"><i>$19.99</i></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-2 mt-3 mt-lg-0">
+            <img src="img/Rectangle 32.png" alt="">
+            <div class="card-body px-0 py-4">
+              <div class="d-flex justify-content-between">
+                <h5>Flame-boiled dish</h5>
+                <p class="text-secondary"><i class='bx bxs-star fs-13'></i> 8.5</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <button class="btn btn-secondary brr p-0 px-2 fs-13">ADD TO CART</button>
+                <h5 class="text-warning fw-semibold"><i>$19.99</i></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <center> <button class="button mt-5 brr py-3 px-4 bg_color text-white">Explore our story</button></center>
+    </div>
+  </section>
+  <!-- ====== /* Recipes */ ======-->
+
+  <!-- ====== /* Recipes */ ======-->
+  <section id="takeAway" class="takeAway py-5">
+    <div class="container">
+      <img class="feature_img_left d-none d-sm-block" src="img/7.png" alt="">
+      <img class="feature_img_right d-none d-sm-block" src="img/4.png" alt="">
+      <div class="row row-cols-1 row-cols-lg-2 align-items-center position-relative z-3">
+        <div class="col">
+          <img class="img-fluid w-100" src="img/Image (1).png" alt="">
+        </div>
+        <div class="col">
+          <p class="color">Take away</p>
+          <h1 class="fw-bold">Simple Way To Order Your Food</h1>
+          <p class="my-4">Keep healthy food readily available. When you get hungry, you’re more likely to eat the first
+            thing you see on the counter or in the cupboard.</p>
+          <img class="img-fluid" src="img/Food 5 1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== /* Recipes */ ======-->
+
+  <!-- ====== /* Testimonial */ ======-->
+  <section id="testimonial" class="testimonial py-5">
+    <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-5">
+            <p class="color">Testimonial</p>
+          <h1 class="fw-bold">That’s what our Client Says</h1>
+          <p class="my-4">
+            “Food palace is an awesome place. Food is everything we are. It’s an extension of nationalist feeling, ethnic feeling, your personal history, your province”
+          </p>
+          <p class="mb-0 fw-semibold mt-5">Abdumajidov Ismoil</p>
+          <p class="mb-0 fs-13 text-secondary">Product Designer @ Kitty</p>
+          </div>
+          <div class="col-12 col-lg-7 mt-5 mt-lg-0">
+            <img class="img-fluid" src="img/Image (2).png" alt="">
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- ====== /* Testimonial */ ======-->
+
+  <!-- ====== /* Footer */ ======-->
+  <section class="footer py-5">
+    <div class="container">
+      <img class="feature_img_right footer_img" src= "img/5.png" alt="">
+      <div class="row align-items-center text-center text-sm-start">
+        <div class="d-none d-xl-block col-lg-6 col-xl-3">
+          <img class="img-fluid" src= "img/8.png" alt="">
+        </div>
+        <div class="col-12 col-sm-6 col-xl-3">
+        <img class="" src="img/Logo.png" alt="">
+        <div class="d-flex justify-content-center justify-content-sm-start footer_icons gap-4 mt-4">
+          <a href="#"><i class='bx bxl-facebook bx-sm'></i></a>
+          <a href="#"><i class='bx bxl-instagram bx-sm'></i></a>
+          <a href="#"><i class='bx bxl-youtube bx-sm' ></i></a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-2">
+        <h5>Our menu</h5>
+        <ul class="ps-0">
+          <li><a href="#">Breakfast</a></li>
+          <li><a href="#">Lunce</a></li>
+          <li><a href="#">Dinner</a></li>
+          </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-2">
+        <h5>Information</h5>
+        <ul class="ps-0">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Testimonial</a></li>
+          <li><a href="#">Event</a></li>
+          </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-2">
+        <h5>Useful links</h5>
+        <ul class="ps-0">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Conditions</a></li>
+          </ul>
+      </div>
+     </div>
+    </div>
+  </section>
+  <!-- ====== /* Footer */ ======-->
+
+
+  <!-- Bootstrap js -->
+  <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
